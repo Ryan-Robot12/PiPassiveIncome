@@ -1,4 +1,8 @@
 echo "Make sure you have docker installed!"
+if [ "$EUID" -ne 0 ]
+  then echo "Please run as root"
+  exit
+fi
 sleep 20
 echo "Downloading and installing EarnApp"
 wget -qO- https://brightdata.com/static/earnapp/install.sh > /tmp/earnapp.sh && sudo bash /tmp/earnapp.sh
