@@ -11,6 +11,6 @@ Create accounts at:
 
 [honeygain.com](https://r.honeygain.me/RATAC2807B)
 
-[peer2profit](https://p2pr.me/1644974741620c52953548e)
+[peer2profit.io](https://p2pr.me/1644974741620c52953548e)
 
 # Meant to be run on a Raspberry Pi. Other platforms will not work
